@@ -1,0 +1,161 @@
+  *{
+  box-sizing:border-box;
+}
+
+body{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  padding-top:4%;
+}
+.main{
+  border:1px solid #dcdee2;
+  border-radius:10px;
+  width:55vw;
+  padding:2% 3%;
+
+  
+}
+.main>div{
+  padding:2% 0;
+}
+.main>h1{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+.main>img{
+  width:7vw;
+  margin: 0;
+}
+form{
+  border:none;
+  width:65%;
+  padding:2% 0 1% 0;
+}
+form>input{
+  padding:1.5vh;
+  border-radius:5px;
+  border:1px solid #dcdee2;
+  margin:2% 3% 0 0;
+  width:46%;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+ 
+input:focus{
+  outline:none;
+  
+}
+
+
+form>p{
+  font-size:13px;
+ font-family: 'Roboto', sans-serif;
+ 
+}
+#username{
+  border:1px solid black;
+  width:96%;
+  border-radius:5px;
+  padding:1.5vh;
+  border:1px solid #dcdee2;
+   margin-top:4vh;
+   display:flex;
+}
+input[type='email']{
+  border:none;
+  margin-left:1%;
+  width:80%;
+
+}
+#username p{
+  display:inline-block;
+  margin:0;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+}
+strong{
+  color:#1a73e8;
+  font-size:13px;
+  font-family: 'Noto Sans', sans-serif;
+}
+input[type='password']{
+  width:40%;
+
+}
+i#hidden{
+  font-size:20px;
+  color:#2C3E50 ;
+}
+#sign-in-div{
+  display:flex;
+  justify-content:space-between;
+  border:none;
+  margin-top: 10%;
+}
+
+button{
+  padding:0 9%;
+  border-radius:5px;
+  background-color:#1a73e8;
+  color:white;
+  border:none;
+  font-family: 'Roboto', sans-serif;
+}
+.main>div{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border:none;
+
+  
+}
+#image{
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  border:none;
+  width:40%;
+  height:70%;
+}
+#image>img{
+  width: 100%;
+}
+#image>p{
+ font-size: 16px;
+ font-family: 'Roboto', sans-serif;
+ width:70%;
+ text-align:center;
+
+}
+
+footer{
+  width:55vw;
+  display:flex;
+  justify-content:space-between;
+  padding:2% 0 1% 0;
+}
+a{
+  text-decoration:none;
+ font-size:14px;
+}
+nav{
+  border:none;
+  width:150px;
+ 
+}
+nav a{
+   color:#676a6e;
+   padding-left:4%;
+   border:none;
+  
+}
+footer>a{
+  color:black;
+} 
+#drop-down{
+  margin-left: 5px;
+}
